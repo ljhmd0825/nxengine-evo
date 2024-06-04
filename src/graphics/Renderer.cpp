@@ -219,13 +219,17 @@ const Graphics::gres_t *Renderer::getResolutions(bool full_list)
 #else
          {(char *)"320x240", 320, 240, 320, 240, 1, false, true},
          {(char *)"640x480", 640, 480, 320, 240, 2, false, true},
+         {(char *)"720x720", 720, 720, 360, 360, 2, true, true},
          //        {(char*)"800x600",   800,      600,      320,      240,      2.5,          false,      true },
          //        //requires float scalefactor
+         {(char *)"854x480", 854, 480, 427, 240, 2, true, true},
+         {(char *)"960x544", 960, 544, 480, 272, 2, true, true},
          {(char *)"1024x768", 1024, 768, 341, 256, 3, false, true},
          {(char *)"1280x1024", 1280, 1024, 320, 256, 4, false, true},
          {(char *)"1600x1200", 1600, 1200, 320, 240, 5, false, true},
          // widescreen
          {(char *)"480x272", 480, 272, 480, 272, 1, true, true},
+         {(char *)"480x320", 480, 320, 480, 320, 1, true, true},
          {(char *)"800x480", 800, 480, 400, 240, 2, true, true},
          {(char *)"1024x600", 1024, 600, 512, 300, 2, true, true},
          {(char *)"1280x720", 1280, 720, 427, 240, 3, true, true},
